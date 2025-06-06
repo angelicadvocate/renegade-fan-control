@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable PWM on boot
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/enable_pwm.sh
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
