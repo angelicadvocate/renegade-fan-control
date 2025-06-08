@@ -1,7 +1,6 @@
-# renegade-fan-control
-PWM fan control for Libre Renegade ROC-RK3328-CC
+# renegade-fan-control – Libre Renegade (ROC-RK3328-CC)
 
-# PWM Fan Control Setup – Libre Renegade (ROC-RK3328-CC)
+*See attached images for what pins to use*
 
 ## 1. Install Scripts
 
