@@ -9,6 +9,11 @@ Move the following files to `/usr/local/bin/`:
 - `enable_pwm.sh`  
 - `fan_control.sh`
 
+```bash
+sudo mv enable_pwm.sh /usr/local/bin/enable_pwm.sh
+sudo mv fan_control.sh /usr/local/bin/fan_control.sh
+```
+
 Make them executable:
 
 ```bash
