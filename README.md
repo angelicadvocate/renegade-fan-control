@@ -2,6 +2,21 @@
 
 *See attached images for what pins to use*
 
+## 0. Prerequisites
+
+```bash
+sudo apt update
+sudo apt install git
+```
+
+```bash
+git clone https://github.com/angelicadvocate/renegade-fan-control.git
+```
+
+```bash
+cd renegade-fan-control
+```
+
 ## 1. Install Scripts
 
 Move the following files to `/usr/local/bin/`:
@@ -49,3 +64,9 @@ Add the following line to run the fan control script every minute:
 * * * * * /usr/local/bin/fan_control.sh
 ```
 
+## 4. Cleanup Leftover Files
+
+```bash
+cd ..
+sudo rm -r renegade-fan-control
+```
